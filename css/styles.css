@@ -847,11 +847,10 @@ h4 {
   margin-bottom: 20px;
 }
 .modal h4 {
-  /*width: 448px;*/
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -874,7 +873,6 @@ h4 {
   line-height: 1.71;
   margin-left: 8px;
   padding-left: 14px;
-  /* identical to box height, or 171% */
 
   letter-spacing: 0.03em;
 
@@ -884,8 +882,7 @@ h4 {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
-  /* identical to box height, or 171% */
+  line-height: 1.71;
 
   letter-spacing: 0.03em;
   text-decoration-line: underline;
@@ -913,7 +910,6 @@ h4 {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-  /* identical to box height, or 187% */
 
   align-items: center;
 
@@ -928,8 +924,7 @@ h4 {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  line-height: 14px;
-  /* identical to box height */
+  line-height: 1.167;
 
   letter-spacing: 0.01em;
 
@@ -950,14 +945,13 @@ h4 {
   position: relative;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/*.form-input:hover,*/
+
 .modal-form__field__input:focus {
   border: 1px solid #2196f3;
   border-radius: 4px;
   padding-left: 38px;
 }
 
-/*.form-input:hover .input-icon,*/
 .modal-form__field__input:focus + .modal__input-icon {
   fill: #2196f3;
 }
