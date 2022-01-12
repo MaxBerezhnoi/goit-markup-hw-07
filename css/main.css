@@ -444,6 +444,7 @@ h4 {
   flex-direction: column;
   justify-content: flex-start;
   margin-top: 12px;
+  margin-right: 93px;
 }
 
 .footer__social h2,
@@ -542,6 +543,7 @@ h4 {
 /*---contacts-footer---*/
 .footer__contacts {
   margin-top: 0;
+  margin-right: 70px;
 }
 
 .contacts-footer {
